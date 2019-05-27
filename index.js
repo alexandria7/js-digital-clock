@@ -1,1 +1,5 @@
-// Your code here
+$(document).ready(function() {
+    
+    $('#clock').append(new Date());
+     
+  });
