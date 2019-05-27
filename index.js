@@ -39,9 +39,9 @@ function updateTime(){
   
 
     $('#date').text(fullDate);
-    $('.time-section:nth-child(2)').text(hours);
-    $('.time-section:nth-child(3)').text(minutes);
-    $('.time-section:nth-child(4)').text(seconds);
+    $('.time-section:first-child').text(hours);
+    $('.time-section:nth-child(2)').text(minutes);
+    $('.time-section:nth-child(3)').text(seconds);
     $('#am-pm').text(timeOfDay);
 }
 
