@@ -12,7 +12,6 @@ function updateTime(){
 }
 
 $(document).ready(function() {
-    
-    setInterval(updateTime(), 1000);
-
+    updateTime();
+    window.setInterval(updateTime, 1000);
   });
