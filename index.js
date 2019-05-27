@@ -48,5 +48,4 @@ function updateTime(){
 $(document).ready(function() {
     updateTime();
     window.setInterval(updateTime, 1000);
-
-  });
+});

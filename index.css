@@ -21,8 +21,12 @@ body {
     padding-right: 10px
 }
 
+#clock:hover {
+    color: #0047C1;
+}
+
 .time-section:first-child:after, .time-section:nth-child(2):after {
-    content: " :"
+    content: ":"
 }
 
 #date {
